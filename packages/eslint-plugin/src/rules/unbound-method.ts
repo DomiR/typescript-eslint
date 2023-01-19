@@ -292,6 +292,9 @@ function checkMethod(
               ts.SyntaxKind.StaticKeyword,
             )
           ),
+          // TODO: add ignoreBoundClassMethods
+          // get class of symbol
+          // get constructor and check if symbol is bound
         firstParamIsThis,
       };
     }
